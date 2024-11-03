@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  background-color: #f4f1f1;
+}
+
+/* Barra Superior */
+.barra-superior {
+  background-color: #0b3dad;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.05rem;
+}
+
+.barra-superior span {
+  font-weight: bold;
+  margin-left: 1200px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.social-icons img {
+  width: 23px;
+  margin-left: 5px;
+}
+
+/* Barra de Navegación */
+
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #89abea;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.logo img {
+  width: 50px; /* Tamaño reducido del logo */
+  margin-right: 10px;
+  filter: drop-shadow(0 2px 5px #33333384);
+}
+
+.logo h1 {
+  font-size: 25px; /* Tamaño más pequeño para el texto del logo */
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+nav a {
+  color: #ffffff;
+  background-color: #89abea;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+/* Efecto hover en los botones */
+nav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Estilos específicos para cada botón */
+.btn-login {
+  background-color: #0b3dad;
+}
+.btn-login:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* Alineación del Menú Horizontal */
+.barra-navegacion nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+/* crear cuenta */
+.Crear-cnt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 2000px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 60px;
+  text-align: center;
+}
+
+#CREAR-CUENTA {
+  width: 100%;
+  max-width: 800px;
+}
+
+.Crear-cnt h1 {
+  font-size: 3.8rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 3px 3px 5px rgb(17, 48, 141);
+  -webkit-text-stroke: 0.5px white;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  color: #ffffff;
+  -webkit-text-stroke: 0.9px black;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  justify-items: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 19px;
+}
+
+.input-group label {
+  color: #000;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1.2em;
+  border-radius: 4px;
+  background-color: #89abea;
+}
+
+.btn-primary {
+  grid-column: span 2;
+  padding: 8px;
+  background-color: #0b3dad;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  max-width: 220px;
+  width: 100%;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn-primary:hover {
+  background-color: #89abea;
+  color: #000;
+}
+
+.login-text {
+  grid-column: span 2;
+  font-size: 1.4rem;
+  color: #000000;
+  margin-top: 2px;
+  font-family: "Literata", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.btn-secondary {
+  grid-column: span 2;
+  padding: 8px;
+  background-color: #0b3dad;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2px;
+  max-width: 220px;
+  width: 100%;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn-secondary:hover {
+  background-color: #89abea;
+  color: #000;
+}
+
+/* Ilustraciones */
+.illustrations {
+  position: absolute;
+  bottom: -150px;
+  left: 0; /* Alinea el contenedor al borde izquierdo */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  display: flex;
+  justify-content: flex-start; /* Alinea las imágenes al inicio del contenedor */
+  padding-left: 380px; /* Añade un poco de espacio desde el borde izquierdo */
+}
+
+.left-illustration,
+.right-illustration {
+  width: 250px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  padding: 40px;
+}
+
+.left-illustration {
+  transform: scaleX(-1); /* Efecto espejo */
+}
+
+.right-illustration {
+  margin-left: 260px; /* Espacio entre las imágenes */
+}
