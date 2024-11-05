@@ -270,14 +270,14 @@ nav a:hover {
   list-style-type: none;
   opacity: 1;
   color: blue;
-  height: 43px;
+  height: 50px;
   padding: 0;
   margin: 0;
   transition: all 0.25s ease-in-out;
   cursor: pointer;
   }
   .Banner_SN li:hover {
-  margin-left: -115px;
+  margin-left: -100px;
   }
   .Banner_SN li img {
   float: left;
