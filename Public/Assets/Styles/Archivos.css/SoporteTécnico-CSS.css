@@ -1,0 +1,193 @@
+.barra-superior {
+    background-color: #0b3dad;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: "Neuton", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1rem;
+  }
+  
+  .barra-superior span {
+    font-weight: bold;
+    margin-left: 1140px;
+  }
+  
+  .social-icons img {
+    width: 23px;
+    margin-left: 5px;
+  }
+  
+  body {
+    font-family: "Literata", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f4f1f1;
+    margin: 0;
+    padding: 30px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .section {
+    width: 48.5%;
+    text-align: justify;
+    font-size: 1.5rem;
+  }
+  
+  .section h2 {
+    color: #0866ff;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
+  .section p{
+    font-size: 1.2rem;
+  }
+  
+  .faq-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-list li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-family: "Literata", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-flex;
+    align-items: center; /* Alinea el texto y el triángulo verticalmente */
+    margin-left: 55px;
+  }
+  
+  .faq-list li:after {
+    content: "▶";
+    color: #0b3dad;
+    margin-left: 5px; /* Ajusta este valor para reducir o aumentar el espacio */
+  }
+  
+  .faq-list li:hover {
+    font-weight: bold;
+    color: #0b3dad;
+    text-decoration-line: #0b3dad;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: "Neuton", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .input-container {
+    background-color: #0B3DAD;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding right: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    background-color: #0B3DAD;
+  }
+  .input-container input::placeholder {
+    color: #fff; /* Color del placeholder en blanco */
+  }
+  
+  /* Pie de pagina */
+  .footer-section {
+    background-color: #d9d9d9;
+    color: #000000;
+    padding: 40px 60px;
+    width: 100vw; /* Asegura que ocupe el ancho completo de la pantalla */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px; /* Ancho máximo para centrar el contenido */
+    margin: 0 auto; /* Centra el contenido dentro del pie de página */
+  }
+  
+  .footer-column {
+    width: 20%;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left; /* Alinea los títulos de cada columna */
+    margin-top: 8px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+    text-align: left; /* Alinea los subtítulos con los títulos */
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .footer-column li {
+    font-family: "Literata", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+  }
+  
+  .footer-column li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  
+  .email-input {
+    padding: 10px; /* Espaciado interno */
+    width: 80%; /* Ancho del campo de entrada */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio inferior entre el campo y el botón */
+    background-color: #ffffff;
+  }
+  

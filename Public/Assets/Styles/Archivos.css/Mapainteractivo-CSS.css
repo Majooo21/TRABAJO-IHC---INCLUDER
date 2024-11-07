@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f1f1;
+}
+
+/* Barra Superior */
+.barra-superior {
+  background-color: #0b3dad;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.05rem;
+}
+
+.barra-superior span {
+  font-weight: bold;
+  margin-left: 1225px;
+}
+
+.social-icons img {
+  width: 20px;
+  margin-left: 5px;
+}
+
+/* Barra de Navegación */
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #89abea;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.logo img {
+  width: 50px; /* Tamaño reducido del logo */
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 20px; /* Tamaño más pequeño para el texto del logo */
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+/* Sección Principal */
+body,
+html {
+  height: 100%;
+  background: linear-gradient(to bottom, #ffffff, #f4f1f1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.titulo h2 {
+  color: #0866ff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Seccion-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  width: 90%;
+  max-width: 1400px;
+  margin: 20px auto;
+}
+
+.text-content {
+  width: 50%;
+  margin-right: 80px;
+}
+
+.text-content h2 {
+  color: #000;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.text-content p {
+  color: #ffffff;
+  background-color: #0b3dad;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-family: "Literata", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.right-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 20px;
+  border: 3px solid #89abea;
+}
+
+.Leyendas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.Leyendas h2 {
+  color: #ffffff;
+  background-color: #76aaff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 1px 1px 2px black;
+}
+
+.iconos-l {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.iconos-l a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.iconos-l img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+/* Nueva barra divisoria */
+.divider {
+  width: 20px; /* Anchura aumentada para mayor visibilidad */
+  height: calc(100% - 280px);
+  background: linear-gradient(to bottom, #ffffff, #89abea);
+  position: absolute;
+  left: 50%;
+  top: 180px; /* Baja la barra divisoria debajo del título */
+  bottom: 0;
+}
+/* Pie de pagina */
+.footer-section {
+  background-color: #d9d9d9;
+  color: #000000;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  width: 20%;
+}
+
+.footer-column h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-column ul {
+  list-style-type: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-column li {
+  font-family: "Literata", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.footer-column li:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.email-input {
+  padding: 10px; /* Espaciado interno */
+  width: 80%; /* Ancho del campo de entrada */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde gris claro */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Espacio inferior entre el campo y el botón */
+  background-color: #ffffff;
+}

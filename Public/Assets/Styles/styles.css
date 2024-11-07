@@ -1,0 +1,643 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  background-color: #f4f1f1;
+}
+
+/* Barra Superior */
+.barra-superior {
+  background-color: #0b3dad;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.05rem;
+}
+
+.barra-superior span {
+  font-weight: bold;
+  margin-left: 1200px;
+}
+
+.social-icons img {
+  width: 23px;
+  margin-left: 5px;
+}
+
+/* Barra de Navegación */
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #89abea;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.logo img {
+  width: 50px; /* Tamaño reducido del logo */
+  margin-right: 10px;
+  filter: drop-shadow(0 2px 5px #33333384)
+}
+
+.logo h1 {
+  font-size: 25px; /* Tamaño más pequeño para el texto del logo */
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+nav a {
+  color: #ffffff;
+  background-color: #89abea;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+/* Efecto hover en los botones */
+nav a:hover {
+  background-color: #ffffff;
+  color:#000000
+}
+
+.btn-explora, btn-home {
+  -webkit-text-stroke: 0.5px black
+  }
+
+.btn-contacto, btn-home {
+  -webkit-text-stroke: 0.5px black
+  }
+
+.btn-home {
+  -webkit-text-stroke: 0.5px black
+  }
+
+/* Estilos específicos para cada botón */
+.btn-login {
+  background-color: #0B3DAD;
+}
+.btn-login:hover {
+  background-color: #ffffff;
+  color:#000000
+}
+/* Alineación del Menú Horizontal */
+.barra-navegacion nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+/* Menu vertical EXPLORA */
+.menu-explora {
+  position: relative; /* Permite que el submenú se posicione absolutamente dentro de este contenedor */
+}
+
+.btn-explora {
+  display: inline-block; 
+  padding: 10px 15px; 
+  background-color: #89ABEA; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn-explora:hover {
+  background-color: #ffffff; /* Color de fondo al pasar el cursor */
+}
+
+.submenu {
+  display: none;
+  position: absolute; 
+  left: 0; 
+  top: 100%; 
+  background-color: white; 
+  z-index: 1; /* Asegura que el submenú aparezca por encima de otros elementos */
+  border-radius: 5px; /* Bordes redondeados para el submenú */
+}
+
+.menu-explora:hover .submenu {
+  display: block; 
+}
+
+.submenu a {
+  display: block; 
+  padding: 10px; /* Espaciado interno para cada opción */
+  color: black; 
+  text-decoration: none; 
+}
+
+.submenu a:hover {
+  background-color: #f0f0f0; /* Color de fondo al pasar el cursor sobre las opciones del menú */
+}
+
+/* Sección Principal */
+.Seccion-principal {
+  display: flex;
+  justify-content: space-between; /* Centra la sección hero entre la imagen y el borde */
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.text-content {
+  max-width: 50%;
+  flex: 1; /* Toma el espacio necesario para centrar */
+  text-align: center; /* Centra el texto */
+  padding-right: 10px; /* Añade espacio entre el texto y la imagen */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.Seccion-principal h2 {
+  font-family: Arial, sans-serif;
+  font-size: 39.5px;
+  color: #0866ff;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Seccion-principal p {
+  font-family: "Literata", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  color: #000000;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.cta-button {
+  background-color: #0b3dad;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+.cta-button:hover {
+  background-color: #ffffff;
+  color:#000000  
+}
+
+.Seccion-principal h3 {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Literata", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 50px;
+}
+
+.TABS {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  margin-top: -60px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.tab {
+  background-color: #0b3dad;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  flex: 1; /* Toma el espacio necesario para centrar */
+  text-align: center; /* Centra el texto */
+  padding-right: 10px; /* Añade espacio entre el texto y la imagen */
+}
+
+.image {
+  max-width: 30%;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Barra flotante de redes sociales */
+.Container_SN {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  right: -130px;
+  top: 230px;
+  width: 210px;
+  z-index: 1100;
+  }
+  .Banner_SN li {
+  list-style-type: none;
+  opacity: 1;
+  color: #0b3dad;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 12px;
+  }
+  .Banner_SN li:hover {
+  margin-left: -50px;
+  }
+  .Banner_SN li img {
+  float: left;
+  margin: 5px 5px;
+  margin-right: 12px;
+  }
+  .Banner_SN li p {
+  padding-top: 5px;
+  margin: 0;
+  line-height: 16px;
+  font-size: 10px;
+  }
+  .Banner_SN li p a {
+  text-decoration: none;
+  color: darkblue;
+  font-family: "Neuton", serif;
+  font-style: normal;
+  font-weight: bold;
+  }
+
+/* Sección Servicios */
+.barra-degradado {
+  height: 30px; /* Ajusta la altura según tus necesidades */
+  background: linear-gradient(to right, #89ABEA, #ffffff);
+  margin-top: 40px; /* Añade un margen superior */
+  margin-bottom: 20px; /* Añade un margen inferior para separarla del texto de Servicios */
+}
+
+.Servicios {
+  background: #FCF7F6
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px; 
+  margin-bottom: 20px;
+}
+
+#Servicios-Includer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Servicios-Includer h3 {
+  color: #0866FF;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+  margin-left: 90px;
+  font-family: "Literata", serif;
+  font-style: normal;
+  text-shadow: 1px 1px 2px black;
+}
+
+#Servicios-Includer p {
+  font-size: 18px;
+  color: #000000;
+  max-width: 50%;
+  line-height: 1.6;
+  margin: 0;
+  font-family: "Literata", serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: justify;
+}
+
+.tab-serv {
+  background-color: #89ABEA;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid #000000;
+  margin-right: 60px;
+  font-size: 1.2rem;
+  -webkit-text-stroke: 0.5px black;
+  font-family: "Neuton", serif;
+  font-style: normal;
+}
+
+.tab-serv:hover {
+  background-color: #5585b5;
+}
+
+/*CODIGO CSS PARA PONER 3 ELEMENTOS EN LINEA*/
+.formulario-primerafila {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 30px;
+}
+
+form label {
+  font-weight: bold;
+  width: 120px;
+  display: inline-block;
+}
+
+.formulario-primerafila input[name="femail"] {
+  margin-left: 20px;
+}
+
+.formulario-primerafila .label1 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.formulario-primerafila input[name="flastname"] {
+  margin-left: 20px;
+}
+
+.formulario-primerafila .label2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*CODIGO CSS PARA PONER 3 ELEMENTOS EN LINEA*/
+.formulario-segundafila {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 30px;
+}
+
+form label {
+  font-weight: bold;
+  width: 120px;
+  display: inline-block;
+}
+
+.formulario-primerafila input[name="fphone"] {
+  margin-left: 20px;
+}
+
+.formulario-segundafila .label3 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.formulario-segundafila input[name="fcity"] {
+  margin-left: 20px;
+}
+
+.formulario-segundafila .label4 {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+form textarea[name="fmessage"] {
+  font-size: 15px;
+  padding-left: 12px;
+  width: 900px;
+  height: 261px;
+  border: none;
+  padding-top: 14px;
+  margin-left: 15px;
+}
+
+.formulario-primerafila .label5 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.formulario-segundafila .label6 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+form .labelcheckbox {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.textasunto {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+form .terminos {
+  font-size: 10px;
+}
+
+form div [name="textcheckbox"] {
+  font-size: 12px;
+}
+
+/* Sección Nosotros */
+section.Nosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #C1D6FF;
+  color: #0866FF;
+}
+
+#Nosotros-Includer {
+  display: flex;
+  flex-direction: row;
+  max-width: 1400px;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Contenido de texto */
+.text-content {
+  flex: 1;
+}
+
+.text-content h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #0866FF;
+  margin-bottom: 20px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Nosotros p {
+  font-size: 1.1em;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-family: "Literata", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Imagen de la sección Nosotros */
+.imagen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen img {
+  max-width: 80%; /* Ajuste el tamaño máximo de la imagen */
+  height: 1;
+  border-radius: 8px;
+}
+
+/* Sección Nosotros Tabs */
+section.Nosotros-tabs {
+  width: 100%;
+  background-color: #F4F1F1; /* Color de fondo opcional */
+  padding: 20px 0; /* Espaciado vertical */
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+.Nosotros-tabs h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.5rem;
+  text-shadow: 1px 1px 2px rgb(76, 74, 74);
+}
+
+.text-content {
+  width: 100%; /* Asegura que el contenido ocupe todo el ancho */
+  max-width: 1200px; /* Limita el ancho máximo para pantallas grandes */
+  text-align: center; /* Centra el texto */
+}
+
+.tabs {
+  margin-bottom: 40px; /* Espacio entre las pestañas y el título */
+  text-shadow: 1px 1px 2px black;
+}
+
+.tab {
+  display: inline-block;
+  background-color: #0B3DAD; 
+  border-color: #0B3DAD;
+  color: white;
+  padding: 15px 15px; /* Aumenta el espaciado interno para agrandar los botones */
+  margin: 0 30px; /* Aumenta el espaciado entre los botones */
+  border-radius: 5px; 
+  text-decoration: none;
+  font-weight: bold; 
+  font-size: 20px; /* Aumenta el tamaño de la fuente */
+}
+.tab:hover {
+  background-color: #ffffff; 
+  color: #000000; 
+}
+
+h1 {
+  color: #0866FF; /* Color del título */
+  font-size: 28px; /* Tamaño de fuente del título */
+  font-weight: bold; /* Negrita */
+  margin-top: 20px; /* Espacio superior */
+}
+/* Pie de pagina */
+.footer-section {
+  background-color: #D9D9D9;
+  color: #000000;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  width: 20%;
+}
+
+.footer-column h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-column ul {
+  list-style-type: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-column li {
+  font-family: "Literata", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  }
+
+.footer-column li:hover {
+ font-weight: bold;
+ text-decoration: underline;
+ text-decoration-color: black;
+ }
+
+
+.email-input {
+  padding: 10px; /* Espaciado interno */
+  width: 80%; /* Ancho del campo de entrada */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde gris claro */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Espacio inferior entre el campo y el botón */
+  background-color: #ffffff;
+}
