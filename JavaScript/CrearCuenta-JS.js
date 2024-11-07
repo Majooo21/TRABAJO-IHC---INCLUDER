@@ -14,9 +14,9 @@ form.addEventListener("submit", (event) => {
   } else if (!validateEmail(femail)) {
     event.preventDefault();
     alert("Por favor, ingrese un correo electrónico válido.");
-  } else if (!validateNumeros(fphone)) {
+  } else if (!validatePhone(fphone)) {
     event.preventDefault();
-    alert("Por favor, ingrese solo números en celular.");
+    alert("Por favor, ingrese un número de celular válido (9 dígitos, comenzando con 9)")
   }
 });
 
@@ -25,8 +25,7 @@ function validateEmail(email) {
   const re = /^[a-zA-Z0-9._]+@[a-zA-Z0-9]+\.[a-zA-Z]/;
   return re.test(String(email).toLowerCase());
 }
-//CREAR FUNCION validar numeros para edad y celular
-function validateNumeros(value) {
-  const re = /^\d+$/; // Verifica que solo contenga dígitos
-  return re.test(value);
+function validatePhone(fphone) {
+  const validphone = /^9\d{8}$/;
+  return validphone.test(fphone);
 }
