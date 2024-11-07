@@ -291,9 +291,9 @@ li:first-child {
 
 .left-illustration {
   transform: scaleX(-1); /* Efecto espejo */
-  margin-left: 90px; /* Espacio entre las imágenes */
+  margin-left: 10px; /* Espacio entre las imágenes */
 }
 
 .right-illustration {
-  margin-left:300px; /* Espacio entre las imágenes */
+  margin-left:230px; /* Espacio entre las imágenes */
 }
