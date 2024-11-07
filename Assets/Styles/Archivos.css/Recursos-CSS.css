@@ -1,0 +1,267 @@
+/* Header Bar */
+.barra-superior {
+  background-color: #0b3dad;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+.barra-superior span {
+  font-weight: bold;
+  margin-left: 1160px;
+}
+
+.social-icons img {
+  width: 23px;
+  margin-left: 5px;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4ff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #0056ff;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  gap: 70px; /* Mayor espacio entre las secciones izquierda y derecha */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: flex-start; /* Alinea los elementos al inicio */
+}
+
+.text-box {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-box h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 0;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.text-box p {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #0b3dad; /* Color de fondo del recuadro */
+  margin-top: 15px;
+  color: #ffffff;
+  text-align: justify;
+  font-size: 1.3rem;
+  font-family: "Literata", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.video-section {
+  flex: 1;
+  text-align: left;
+}
+
+.video-section h2 {
+  padding: 10px;
+  background-color: #4b7cdb; /* Fondo azul */
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 10px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.video-section p {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #000000;
+  text-align: center;
+  font-family: "Literata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Guides Section */
+.guides {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.guides h2 {
+  background-color: #76aaff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin-right: 60px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px rgb(99, 96, 96);
+}
+
+.guides ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px; /* Espacio entre el título y los elementos de la lista */
+  gap: 40px;
+}
+
+.guides li {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 12px;
+  position: relative;
+  margin-right: 95px;
+  font-family: "Literata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.guides li:not(:last-child) {
+  border-bottom: 4px solid #4b7cdb;
+  padding-bottom: 5px;
+}
+
+.guides li:hover {
+  text-decoration: underline;
+  text-decoration-line: #0b3dad;
+  color: #0b3dad;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.guides img {
+  height: 80px;
+  width: auto;
+}
+.recur-img img {
+  height: 150px;
+  width: 150px;
+  margin-right: 100px;
+}
+/* Pie de pagina */
+.footer-section {
+  background-color: #d9d9d9;
+  color: #000000;
+  padding: 20px 20px;
+  width: 100vw; /* Asegura que ocupe el ancho completo de la pantalla */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Distribuye las columnas a lo largo de toda la página */
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+  padding: 0 20px; /* Añade un poco de margen lateral */
+}
+
+.footer-column {
+  width: 20%; /* Mantén el ancho de las columnas */
+}
+
+.footer-column:last-child(4) {
+  margin-right: -90px; /* Ajusta el valor para separar la segunda columna */
+}
+
+.footer-column {
+  width: 90%;
+}
+
+.footer-column h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left; /* Alinea los títulos de cada columna */
+  margin-top: 8px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  text-align: left; /* Alinea los subtítulos con los títulos */
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-column li {
+  font-family: "Literata", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.footer-column li:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.email-input {
+  padding: 10px; /* Espaciado interno */
+  width: 80%; /* Ancho del campo de entrada */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde gris claro */
+  font-size: 16px; /* Tamaño de fuente */
+  margin-bottom: 10px; /* Espacio inferior entre el campo y el botón */
+  background-color: #ffffff;
+}

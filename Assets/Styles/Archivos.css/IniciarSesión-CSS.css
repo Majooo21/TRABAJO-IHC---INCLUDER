@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f1f1;
+}
+
+/* Barra Superior */
+.barra-superior {
+  background-color: #0b3dad;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.05rem;
+}
+
+.barra-superior span {
+  font-weight: bold;
+  margin-left: 1200px;
+}
+
+.social-icons img {
+  width: 23px;
+  margin-left: 5px;
+}
+
+/* Barra de Navegación */
+.barra-navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #89abea;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.logo img {
+  width: 50px; /* Tamaño reducido del logo */
+  margin-right: 10px;
+  filter: drop-shadow(0 2px 5px #33333384);
+}
+
+.logo h1 {
+  font-size: 25px; /* Tamaño más pequeño para el texto del logo */
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+nav a {
+  color: #ffffff;
+  background-color: #89abea;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-style: normal;
+}
+/* Efecto hover en los botones */
+nav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Estilos específicos para cada botón */
+.btn-login {
+  background-color: #0b3dad;
+}
+.btn-login:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+/* Alineación del Menú Horizontal */
+.barra-navegacion nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+/* INICIAR SESION */
+.Inicio-sesion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 2000px;
+  background-color: #f4f1f1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+#INICIAR-SESION {
+  width: 100%;
+  max-width: 800px;
+}
+
+#INICIAR-SESION h1 {
+  display: inline-flex;
+  align-items: center;
+  font-size: 3.8rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 3px 3px 5px rgb(17, 48, 141);
+  -webkit-text-stroke: 0.5px white;
+}
+
+.bienvenido {
+  width: 70px; /* Ajusta el tamaño según sea necesario */
+  height: 70px;
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.input-group {
+  text-align: center; /* Centrar texto dentro del grupo */
+}
+.input-group label {
+  color: #000;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+fieldset {
+  border: none; /* Eliminar el borde del fieldset */
+  padding: 0; /* Eliminar el relleno del fieldset */
+}
+
+ul {
+  list-style-type: none; /* Eliminar viñetas de la lista */
+  padding: 0; /* Eliminar el relleno de la lista */
+  margin: 0; /* Eliminar márgenes de la lista */
+}
+
+li {
+  margin: 20px 0; /* Espacio entre los elementos de la lista */
+  position: relative; /* Permitir posicionamiento de la etiqueta respecto al contenedor */
+}
+
+label {
+  position: absolute; /* Posicionar la etiqueta encima del cuadro */
+  top: -15px; /* Ajustar la posición vertical para que esté encima del cuadro */
+  left: 250px; /* Alinear a la izquierda */
+  background: #f0f0f0; /* Fondo para la etiqueta para mejorar visibilidad */
+  padding: 0 5px; /* Espaciado horizontal */
+  color: #333; /* Color de texto de la etiqueta */
+}
+
+input[type="text"] {
+  width: 100%; /* Hacer que los campos de texto ocupen el 100% del ancho */
+  max-width: 300px; /* Establecer un ancho máximo */
+  padding: 15px; /* Agregar un poco de relleno para mejor apariencia */
+  border: 2px solid white; /* Bordes blancos */
+  border-radius: 4px; /* Bordes redondeados */
+  background-color: #89abea; /* Fondo azul */
+  color: rgb(0, 0, 0); /* Color de texto en el cuadro */
+  margin-top: 10px; /* Espacio entre la etiqueta y el cuadro de texto */
+}
+li:first-child {
+  margin-bottom: 40px; /* Aumentar el margen inferior del primer elemento */
+}
+
+.btn-frm-ins {
+  grid-column: span 2;
+  padding: 8px;
+  background-color: #0b3dad;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  max-width: 220px;
+  width: 100%;
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  margin-top: 20px;
+  font-style: normal;
+}
+
+.btn-frm-ins:hover {
+  background-color: #89abea;
+  color: #000;
+}
+
+.Ingresa-con {
+  display: flex;
+  flex-direction: column; /* Mantiene el texto en columna */
+  align-items: center; /* Centra el texto */
+  width: 100%;
+  max-width: 2000px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 70px;
+  margin-top: 10px;
+}
+
+.Ingresa-con p {
+  margin-bottom: 10px; /* Espacio entre el texto y las imágenes */
+  font-family: "Literata", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.ingresa-con img {
+  margin: 0 20px; /* Espacio a los lados de las imágenes */
+}
+
+.ingresa-con .iconos-ingresa {
+  display: flex; /* Alinea las imágenes en fila */
+  justify-content: center; /* Centra las imágenes */
+}
+
+.ingresa-g,
+.ingresa-ig,
+.ingresa-fb {
+  width: 40px;
+  cursor: pointer;
+}
+
+.login-text {
+  margin-bottom: 10px;
+}
+
+.login-text {
+  grid-column: span 2;
+  font-size: 1.2em;
+  color: #000000;
+  margin-top: 10px;
+}
+
+/* Ilustraciones */
+.illustrations {
+  position: absolute;
+  bottom: -10px;
+  left: 0; /* Alinea el contenedor al borde izquierdo */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  display: flex;
+  justify-content: flex-start; /* Alinea las imágenes al inicio del contenedor */
+  padding-left: 380px; /* Añade un poco de espacio desde el borde izquierdo */
+}
+
+.left-illustration,
+.right-illustration {
+  width: 250px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+}
+
+.left-illustration {
+  transform: scaleX(-1); /* Efecto espejo */
+  margin-left: 20px; /* Espacio entre las imágenes */
+}
+
+.right-illustration {
+  margin-left: 280px; /* Espacio entre las imágenes */
+}
