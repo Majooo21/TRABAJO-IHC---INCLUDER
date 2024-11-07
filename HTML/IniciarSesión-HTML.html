@@ -3,33 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Iniciar Sesión</title>
+    <title>Includer - Acceso sin Barreras</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Luckiest+Guy&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Unbounded:wght@200..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../ESTILOS/IniciarSesión-CSS.css"/>
+    <link rel="stylesheet" href="IniciarSesión-CSS.css" />
   </head>
   <body>
     <!-- Barra Superior -->
     <div class="barra-superior">
       <span>ENCUÉNTRANOS EN</span>
       <div class="social-icons">
-        <a href="#"><img src="../Imágenes\pngwing.com (5).png" alt="TikTok" /></a>
-        <a href="#"><img src="../Imágenes\pngegg.png" alt="Facebook" /></a>
-        <a href="#"><img src="../Imágenes\pngwing.com (6).png" alt="Instagram" /></a>
+        <a href="#"><img src="\ihc\pngwing.com (5).png" alt="TikTok" /></a>
+        <a href="#"><img src="\ihc\pngegg.png" alt="Facebook" /></a>
+        <a href="#"><img src="\ihc\pngwing.com (6).png" alt="Instagram" /></a>
       </div>
     </div>
     <!-- Barra de Navegación -->
     <header>
       <div class="barra-navegacion">
         <div class="logo">
-          <a href="../index.html">
-            <img
-              src="../Imágenes\LOGO_INCLUDER-removebg-preview (4).png"
-              alt="Includer Logo"
-            />
-          </a>
+          <img
+            src="\ihc\LOGO_INCLUDER-removebg-preview (4).png"
+            alt="Includer Logo"
+          />
           <h1>INCLUDER</h1>
         </div>
         <nav>
@@ -37,44 +35,48 @@
         </nav>
       </div>
     </header>
-    <!-- Sección Crear cuenta -->
+    <!-- Sección Iniciar sesion -->
     <div class="Inicio-sesion">
       <div id="INICIAR-SESION">
-        <img src="../Imágenes\pngwing.com (8).png" alt="Persona" class="bienvenido" />
+        <img src="\ihc\pngwing.com (8).png" alt="Persona" class="bienvenido" />
         <h1>BIENVENIDO A INCLUDER</h1>
-        <form class="form">
-          <div class="input-group">
-            <label for="email">EMAIL ✉️</label>
-            <input type="text" id="email" />
-          </div>
-          <div class="input-group">
-            <label for="password">CONTRASEÑA 👁️</label>
-            <input type="text" id="password" />
-          </div>
+        <div class="input-group">
+          <form name="frm" method="post" action="">
+            <fieldset id="form">
+              <ul>
+                <li>
+                  <label>EMAIL ✉️</label>
+                  <input type="text" name="femail" size="15" />
+                </li>
+                <li>
+                  <label>CONTRASEÑA 👁️</label>
+                  <input type="text" name="fpassword" size="15" />
+                </li>
+              </ul>
+              <input type="submit" class="btn-frm-ins" value="INICIAR SESIÓN" />
+            </fieldset>
         </form>
-        <br /><br />
-        <button type="submit" class="btn-primary">INICIAR SESIÓN</button>
       </div>
 
       <div class="Ingresa-con">
         <p class="login-text">O INGRESA CON</p>
         <div class="iconos-ingresa">
-          <img src="../Imágenes\pngwing.com (7).png" alt="Google" class="ingresa-g" />
+          <img src="\ihc\pngwing.com (7).png" alt="Google" class="ingresa-g" />
           <img
-            src="../Imágenes\pngwing.com (6).png"
+            src="\ihc\pngwing.com (6).png"
             alt="instagram"
             class="ingresa-ig"
           />
-          <img src="../Imágenes\pngegg.png" alt="facebook" class="ingresa-fb" />
+          <img src="\ihc\pngegg.png" alt="facebook" class="ingresa-fb" />
         </div>
         <div class="illustrations">
           <img
-            src="../Imágenes\PERSONA EN SILLA DE RUEDAS SUBIENDO RAMPA.jpg"
+            src="\ihc\PERSONA EN SILLA DE RUEDAS SUBIENDO RAMPA.jpg"
             alt="Ilustración izquierda"
             class="left-illustration"
           />
           <img
-            src="../Imágenes\PERSONA EN SILLA DE RUEDAS SUBIENDO RAMPA.jpg"
+            src="\ihc\PERSONA EN SILLA DE RUEDAS SUBIENDO RAMPA.jpg"
             alt="Ilustración derecha"
             class="right-illustration"
           />
@@ -82,4 +84,5 @@
       </div>
     </div>
   </body>
+  <script src="IniciarSesión-JS.js"></script>
 </html>
