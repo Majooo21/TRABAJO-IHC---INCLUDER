@@ -269,13 +269,13 @@ nav a:hover {
   .Banner_SN li {
   list-style-type: none;
   opacity: 1;
-  color: blue;
+  color: #0b3dad;
   height: 50px;
   padding: 0;
   margin: 0;
   transition: all 0.25s ease-in-out;
   cursor: pointer;
-  background-color: #0b3dad;
+  background-color: white;
   border-radius: 12px;
   }
   .Banner_SN li:hover {
