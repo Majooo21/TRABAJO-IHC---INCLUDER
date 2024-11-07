@@ -276,7 +276,7 @@ nav a:hover {
   transition: all 0.25s ease-in-out;
   cursor: pointer;
   background-color: white;
-  border-radious: 12px;
+  border-radius: 12px;
   }
   .Banner_SN li:hover {
   margin-left: -100px;
